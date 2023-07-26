@@ -1,0 +1,542 @@
+*{
+    margin: 0px;
+    outline:0px;
+}
+.top1{
+    display: flex;
+    width: 100%;
+    height:10vh;
+    background-color:#ffffff;
+}
+.trainlogo{
+    width: 28%;
+    height:9vh;
+    
+}
+.trainlogo img{
+    margin-left:30px;
+    margin-top:10px;
+    height:7vh;
+}
+.midlogs{
+    width: 20%;
+    height:10vh;
+    
+}
+.midlogs img{
+    margin-top: 17px;
+    width:90px;
+    height:6vh;
+}
+.contentlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    margin-left: 25%;
+    height:11vh;
+    
+}
+#h4l{
+    margin-left:40px;
+    position: relative;
+    cursor: pointer;
+}
+.cntentlogo,.fa-solid{
+    margin-left: 60px;
+    position: relative;
+}
+.contentlogo img{
+    width:13%;
+    height:7vh;
+    margin-left: 70px;
+    margin-top: px;
+}
+.contentlogo h4{
+    position: relative;
+}
+/* ================================================top====== */
+.head{
+    width:100%;
+    height:32vh;
+    background-image: url(https://www.irctctourism.com/assets/img/tourism-view.webp);
+    background-size: 100% 100%;
+    background-position: 120% 0px 0px 0px ;
+    background-repeat: no-repeat;
+}
+.flight{
+    /* position: relative; */
+}
+#f123{
+    margin-top:14px;
+}
+.train{
+    position:relative;
+    margin-top:54px;
+    background-size: cover;
+    width:100%;
+    height: 35px;
+    animation: train 45s infinite;
+    animation-timing-function: linear;
+    animation-direction: normal;
+}
+.bus{
+    
+    width: 100%;
+    margin-top: -23px;
+}
+.water{
+    display: flex;
+    width: 100%;
+    height:11vh;
+    background-image:url(https://www.irctctourism.com/assets/img/sea.webp);
+    background-size: 100%;
+    filter:url(#turbulence);
+    margin-top:-42px;
+    
+}
+#ship12{
+    margin-top:-35px;
+}
+.logs{
+   
+    width: 100%;
+    height: 30vh;
+    /* background-color:rgb(46, 10, 208); */
+    background-color:rgb(4, 21, 91);
+
+}
+.logo{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    height:18vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    
+}
+.circles{
+    display: flex;
+    height:13vh;
+    justify-content:space-around;
+    align-items: center;
+    
+    
+   
+}
+.img1 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+   
+}
+
+
+.searchbar{
+    width: 70%;
+    height:12vh;
+    background-color:#ffffff;
+    margin-left:13%;
+    border-radius:10px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.in1{
+    width:50%;
+    margin-top:20px;
+    height:35px;
+    border: none;
+    border-bottom: 2px solid rgb(157, 144, 144); 
+    font-size: 17px;
+    padding: 10px;
+    color: black;
+    margin-left:30px;
+}
+.opt1{
+    width:20%;
+    height:35px;
+    margin-left:30px;
+    border:none;
+    border-bottom:2px solid rgb(149, 139, 139);
+    font-size: 17px;
+}
+.searchbar button{
+    margin-left:35px;
+    width:14%;
+    height:38px;
+    font-size: 17px;
+    border: none;
+    background-color: rgb(223, 202, 15);
+    border-radius: 2px;
+}
+.searchbar button:hover{
+   box-shadow: 6px 2px 10px 2px black;
+}
+.hieghhed{
+    width:100%;
+    height: 10vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+/* .hieghhed img{
+    width:150px;
+    height: 100px;
+    background-color: transparent;
+    margin-left: 300px;
+} */
+.hieghhed h1{
+   margin-top:30px;
+   font-style:italic;
+   font-size: 35px;
+}
+.hieghhed h1:hover{
+    box-shadow:0px 0px 10px 2px ;
+}
+.high{
+    width: 100%;
+    height:40vh;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.high img{
+    width:26%;
+    height:34vh;
+    padding: 12px;
+}
+.high img:hover{
+    box-shadow: 0px 0px 20px 0px rgb(5, 6, 5);
+}
+/* ==========================================mainbox4======================== */
+.title1{
+    width: 100%;
+    height:8vh;
+    margin-top:5px;
+
+}
+.title1 h1{
+    margin-left: 140px;
+}
+.mainbox4{
+    width: 100%;
+    height: 29vh;
+    display: flex;
+    overflow: hidden;
+    justify-content:center  ;
+    background-color: rgb(236, 215, 215);
+}
+.mainbox4 img{
+        width: 182px;
+        height:13rem;
+        margin-top: 0.2rem;
+       
+}
+
+/* mainbox5========================== */
+.mainbox5{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainbox5 img{
+    width:26%;
+    height:34vh;
+    padding: 12px;
+}
+.mainbox5 img:hover{
+    box-shadow: 0px 0px 20px 0px rgb(5, 6, 5);
+}
+/* ========================mainbox6===================== */
+.mainbox6{
+    display: flex;
+    width: 100%;
+    height:70vh;
+    /* background-color: rgb(200, 17, 145); */
+    background-color:#ece3e3;
+}
+.m6box1{
+    width: 50%;
+    height:70vh;
+}
+.m6box2{
+    width: 50%;
+    height:70vh;
+    
+}
+.m6box1 img{
+    width:80%;
+    height:60vh;
+    margin-left:100px;
+    margin-top: 5%;
+    background: transparent;
+    
+}
+.m6box1 img:hover{
+    border:2px solid rgb(192, 155, 155);
+    box-shadow:0px 0px 20px 5px rgb(97, 93, 93);
+}
+.m6loginp{
+    width: 50%;
+    height:65vh;
+    background-color:#ffffff;
+    text-align: center;
+    margin-left:30%;
+    margin-top:3%;
+    /* box-shadow:0px 0px 35px 6px black; */
+}
+.m6loginp:hover{
+    /* box-shadow:0px 0px 10px 10px white; */
+    box-shadow:0px 0px 27px 2px black;
+}
+.m6loginp h2{
+    padding-top:35px;
+}
+.m6loginp p{
+    font-size:14px;
+    padding-top: 5px;
+}
+.m6loginp input{
+    width:90%;
+    height: 35px;
+    margin-top: 20px;
+    background: none;
+    border:2px solid rgb(202, 188, 188);
+    border-radius: 5px;
+    font-size: 15px;
+}
+.m6loginp textarea{
+    width:90%;
+    margin-top:20px;
+    height: 50px;
+    font-size:17px;
+}
+.m6loginp button{
+    width: 150px;
+    height:37px;
+    margin-top: 15px;
+    background-color: rgb(209, 170, 16);
+    border: none;
+    font-size:18px;
+}
+.m6loginp button:hover{
+    box-shadow:0px 5px 10px 5px black;
+}
+/* ============================================================================= */
+.mid3boxs{
+    margin-top: 20px;
+    width: 100%;
+    height:57vh;
+    background-color:rgb(2, 2, 189);
+    display: flex;
+    justify-content: center;
+}
+.m3box1{
+    width: 15%;
+    height: 50vh;
+    margin-top:30px;
+}
+
+.m3box1 h3{
+    width: 70%;
+    height:28px;
+   
+    color: #ffffff;
+}
+.m3box1 h3:hover{
+    border-bottom:2px solid rgb(14, 13, 13);
+}
+.m3box1 a{
+    font-size:16px;
+    color: #d2c0c0;
+    text-decoration: none;
+    margin-left: 1px;
+}
+
+/* ==============================m4lastbox============================ */
+.m4lastbox{
+    width: 100%;
+    height: 13vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.m4box1{
+    width:20%;
+    height:12vh;
+    
+    
+}
+.m4box2{
+    width:35%;
+    height:12vh;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    
+}
+.m4box3{
+    width:30%;
+    height:12vh;
+    display: flex;
+}
+.m4box1 a{
+    margin-left:5px;
+    margin-right: 5px;
+    color:rgb(8, 35, 146);
+}
+#m4p{
+    margin-top:5px;
+}
+.m4box1 p{
+    margin-top: 14px;
+}
+
+.m4icons {
+    margin-top: 1rem;
+    margin-bottom: .2rem;
+}
+
+.m4icons i{
+    font-size: 2.1rem;
+    border-radius: 50%;
+}
+
+
+.m4box3 img{
+    width: 40px;
+    height:40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.m4box3 p{
+    margin-top:25px;
+    margin-right: 10px;
+}
+/* ==============================boxblock===================== */
+.boxblock{
+    width: 100%;
+    height: 60vh;
+    background-color:rgb(158, 137, 137);
+    display: flex;
+    justify-content: center;
+}
+.title{
+    width:80%;
+    height: 7vh;
+    text-align: center;
+    border-bottom: 1px dashed;
+}
+/* =========================================slideflowdetails */
+.slideflow{
+    position: absolute;
+    position: fixed;
+    width:270px;
+    height: 100vh;
+    top:1px;
+    right:0.5px;
+    background-color: #d8d5e8;
+    z-index: 1;
+    display:none;
+    cursor: pointer;
+}
+.slideflow .fa-solid{
+   margin-top: 10px;
+   right:42px;
+   font-size: 20px;
+}
+.sldecontent{
+    margin-top: 30px;
+    
+}
+.sldecontent h6{
+    padding:12px;
+}
+
+.contactdetails b{ 
+    font-size: 10px;
+}
+/* =============================================contactshow */
+.contactshow{
+    position: absolute;
+    width:220px;
+    height:15vh;
+    top:60px;
+    margin-right:135px;
+    border: 1px solid black;
+    border-radius:2px;
+    background-color:#ffffff;
+    display:none;
+    z-index: 1;
+}
+.contactshow i{
+    width: 100%;
+    margin-right: 50px;
+}
+ 
+
+
+/* ==================================loginbox */
+/* .loginbox{
+    width:100px;
+    height:30vh;
+    background-color: aqua;
+   
+} */
+.showhide{
+    width: 100%;
+    height: 48vh;
+}
+.showhide h1{
+    text-align: center;
+    border-bottom:double;
+}
+.shboxs{
+    width: 100%;
+    height:37vh;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+    
+    
+   
+    
+}
+.open{
+    width: 600px;
+    height:4.5vh;
+    background-color:rgb(248, 246, 246);
+    margin-bottom: 18px;
+    display: flex;
+    margin-top:5px;
+    justify-content: space-between;
+    border-radius: 2px;
+    cursor: pointer;
+    align-items: center;
+}
+.open i{
+    margin-right: 15px;
+    
+}
+.close{
+    width: 600px;
+    height:9vh;
+    display: none;
+    
+}
+.open:hover{
+    text-decoration: underline;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px  rgb(18, 17, 17);
+    /* border-bottom:2px solid rgb(237, 189, 189); */
+    border-right:4px solid rgb(224, 140, 140) ;
+}
+
+
+
+
+
